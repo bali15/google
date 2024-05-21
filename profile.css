@@ -1,0 +1,207 @@
+@import url(https://db.onlinewebfonts.com/c/2767b18dd6a611e3ce83d0bfe4729cb4?family=Password+Dots+Regular);
+
+body{
+  background-color: #f0f4f9;
+  font-family: Roboto, Arial;
+}
+.board{
+  display: grid;
+  grid-template-rows: 420px 100px;
+  width: 1000px;
+  margin-top: 80px;
+  margin-left: 180px;
+}
+.login-board{
+  height: 420px;
+  width: 1000px;
+  background-color:white;
+  border: none;
+  border-radius: 30px; 
+  display: flex;
+  flex-direction: row; 
+}
+.lb-left-side{
+  width: 500px;
+}
+.lb-right-side{
+  width: 500px;
+}
+.lbl-google-logo{
+  height: 47px;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.lbl-bejelentkezes-text{
+  font-weight: 400;
+  font-size: 35px;
+  margin-left:50px;
+  margin-top: 24px;
+  margin-bottom: 15px;
+}
+.lbl-tovabb-a-youtube-ra-text{
+  font-family: Roboto;
+  color: rgb(71, 71, 71);;
+  margin-left: 50px;
+}
+.lbr-email-input,
+.lbr-jelszo-input{
+  font-family: Roboto;
+  width: 415px;
+  margin-top: 125px;
+  height: 53px;
+  margin-left: 20px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  padding-left: 18px;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+}
+
+.lbr-email-input:focus{
+  border-color: #0b57d0;
+}
+
+
+
+
+.lbr-jelszo-input{
+  margin-top: 40px;
+  font-size: 9px;
+  font-family: "Password Dots Regular";
+}
+.lbr-jelszo-input::placeholder{
+  font-family: Roboto;
+  font-size: 16px;
+}
+
+
+.lbr-login-button{
+  display: flex;
+  height: 35px;
+  margin-left: 166px;
+  margin-top: 70px;
+}
+
+.lbr-letrehozas-button{
+  margin-right: 20px;
+  border: none;
+  border-radius: 30px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 15px ;
+  padding-right: 15px;
+  text-align: center;
+  text-wrap: nowrap;
+  color: #0b57d0;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 700;
+  background-color: white;
+
+  transition: background-color 0.2s;
+}
+.lbr-letrehozas-button:hover{
+  
+  background-color: rgba(203, 207, 214, 0.22);
+}
+.lbr-bejelentkezes-button{
+  font-weight: 700;
+  font-size: 14px;
+  margin-right: 50px;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 15px ;
+  padding-right: 15px;
+  background-color: #0b57d0;
+  color: white;
+
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+.lbr-bejelentkezes-button:hover{
+  background-color: rgb(8, 59, 199);
+  box-shadow: 0 2px 5px grey;
+}
+
+
+
+
+
+
+.under-login-board{
+  display: flex;
+  flex-direction: row;
+  color: rgb(94, 93, 93);
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 32px;
+  align-items: center;
+  
+  margin-top: 18px;
+}
+.ulb-language-text{
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  height: 32px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  border-radius: 12px;
+  margin-left: -10px;
+  font-size: 12px;
+  text-wrap: nowrap;
+
+  transition: background-color 0.2s;
+}
+.dropdown-icon{
+  height: 8px;
+}
+
+
+.ulb-language-text:hover, .ulb-others-text:hover{
+  background-color: rgba(230, 227, 227, 0.712);
+}
+.ulb-language{
+  width: 180px;
+  height: 32px;
+}
+.ulb-others{
+  width: 390px;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 420px;
+  align-items: center;
+  text-align: center;
+  
+}
+.ulb-others-text{
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  border-radius: 12px;
+  margin-left: -10px;
+  text-align: center;
+
+  transition: background-color 0.2s;
+}
+.clear-data{
+  display: inline-block;
+  margin-left: 600px;
+  width: 60px;
+  justify-content: center;
+  opacity: 0;
+}
+
+

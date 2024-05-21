@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="/fakegoogle/profile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="board">
+      <div class="login-board">
+        <div class="lb-left-side">
+          <img src="pics/google-logo.png" alt="" class="lbl-google-logo" />
+          <p class="lbl-bejelentkezes-text">Bejelentkezés</p>
+          <p class="lbl-tovabb-a-youtube-ra-text">Tovább a YouTube-ra</p>
+        </div>
+        <div class="lb-right-side">
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="E-mail-cím vagy telefonszám"
+            class="lbr-email-input"
+          />
+          <input type="text" placeholder="Jelszó" class="lbr-jelszo-input" />
+          <div class="lbr-login-button">
+            <button class="lbr-letrehozas-button" onclick="register()">
+              Fiók létrehozása
+            </button>
+            <button class="lbr-bejelentkezes-button" onclick="login1()">
+              Bejelentkezés
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="under-login-board">
+        <div class="ulb-language">
+          <div class="ulb-language-text">
+            <p>magyar</p>
+            <img src="pics/down-icon.png" alt="" class="dropdown-icon" />
+          </div>
+        </div>
+        <div class="ulb-others">
+          <p class="ulb-others-text">Súgó</p>
+          <p class="ulb-others-text">Adatvédelem</p>
+          <p class="ulb-others-text">Általános Szerződési Feltételek</p>
+        </div>
+      </div>
+    </div>
+    <script src="/fakegoogle/login.js"></script>
+  </body>
+
+  <p class="ulb-others-text clear-data" onclick="clearData()">Clear Data</p>
+</html>
